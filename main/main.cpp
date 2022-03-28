@@ -26,8 +26,10 @@ int main(){
 	cl->exe_array3D();
 	end = std::chrono::system_clock::now();
 	elapsed = std::chrono::duration_cast<std::chrono::microseconds>(end-start).count();
-	cout << "1) 3D array " 
-		<< setw(16) 
+	//cout << "1) 3D array " 
+	//	<< setw(16) 
+	//	<< elapsed << endl;
+	cout << setw(16) 
 		<< elapsed << endl;
 
 
@@ -37,8 +39,10 @@ int main(){
 	cl->exe_array1D();
 	end = std::chrono::system_clock::now();
 	elapsed = std::chrono::duration_cast<std::chrono::microseconds>(end-start).count();
-	cout << "2) 1D array " 
-		<< setw(16) 
+	//cout << "2) 1D array " 
+	//	<< setw(16) 
+	//	<< elapsed << endl;
+	cout << setw(16) 
 		<< elapsed << endl;
 
 	
@@ -48,8 +52,10 @@ int main(){
 	cl->exe_vector1D();
 	end = std::chrono::system_clock::now();
 	elapsed = std::chrono::duration_cast<std::chrono::microseconds>(end-start).count();
-	cout << "3) 1D vector " 
-		<< setw(16) 
+	//cout << "3) 1D vector " 
+	//	<< setw(16) 
+	//	<< elapsed << endl;
+	cout << setw(16) 
 		<< elapsed << endl;
 
 
@@ -59,8 +65,10 @@ int main(){
 	cl->exe_vector1D_class();
 	end = std::chrono::system_clock::now();
 	elapsed = std::chrono::duration_cast<std::chrono::microseconds>(end-start).count();
-	cout << "4) 1D vector (class) " 
-		<< setw(16) 
+	//cout << "4) 1D vector (class) " 
+	//	<< setw(16) 
+	//	<< elapsed << endl;
+	cout << setw(16) 
 		<< elapsed << endl;
 
 
