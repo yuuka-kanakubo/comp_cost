@@ -57,22 +57,22 @@ class cell{
 			//---------------------------------------------------------------------
 			return (double) a*b*c;
 		}
-		double get_a(int a, int b, int c) const{
-			//For simplicity.
-			//--------------------
-			return (double) a*b*c;
-		}
-		double get_b(int a, int b, int c) const{
-			//For simplicity.
-			//--------------------
-			return (double) a*b*c;
-		}
-		double get_c(int a, int b, int c) const{
-			//For simplicity.
-			//--------------------
-			return (double) a*b*c;
-		}
-
+//		double get_a(int a, int b, int c) const{
+//			//For simplicity.
+//			//--------------------
+//			return (double) a*b*c;
+//		}
+//		double get_b(int a, int b, int c) const{
+//			//For simplicity.
+//			//--------------------
+//			return (double) a*b*c;
+//		}
+//		double get_c(int a, int b, int c) const{
+//			//For simplicity.
+//			//--------------------
+//			return (double) a*b*c;
+//		}
+//
 
 public:
 
